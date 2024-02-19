@@ -1,7 +1,7 @@
 # Google-Cybersecurity
 self based cyber security course from google
 
-# this is a summary of my journy and what I have learned in this course
+# This is a summary of my journy and what I have learned in this course
 
 1_
 Explain how this certificate program will help prepare learners for a career in security
