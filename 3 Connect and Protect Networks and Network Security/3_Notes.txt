@@ -1,0 +1,144 @@
+When organizations use a CSP’s services in addition to their on-premise computers, networks, and storage, it is referred to as a hybrid cloud environment. When organizations use more
+ than one CSP, it is called a multi-cloud environment. The vast majority of organizations use hybrid cloud environments to reduce costs and maintain control over network resources.
+
+-> SDN: move control plane from network devices to a specific control device to faciliate management 
+
+In the header there is the IHL ( Internet Header Length) field which is 4 bits long and specifies the header length in 32 bit words. The IHL field can hold values from 0 (Binary 0000) to 15 (Binary 1111). So the longest Internet
+ Header (IP header) size can be 15*32 Bits = 480 Bits = 60 Bytes. This is why the header has a maximum size of 60 Bytes.
+
+HTTPS is a secure version of HTTP that uses secure sockets layer/transport layer security (SSL/TLS) encryption 
+SFTP uses secure shell (SSH), typically through TCP port 22. SSH uses Advanced Encryption Standard (AES) and other types of encryption
+
+NAT is a part of layer 2 (internet layer) and layer 3 (transport layer) of the TCP/IP model.
+
+Private IP ranges
+10.0.0.0-10.255.255.255
+172.16.0.0-172.31.255.255
+192.168.0.0-192.168.255.255
+
+Public IP ranges
+1.0.0.0-9.255.255.255
+11.0.0.0-126.255.255.255
+128.0.0.0-172.15.255.255
+172.32.0.0-192.167.255.255
+192.169.0.0-233.255.255.255
+
+DHCP
+	UDP port 67 (servers)
+	UDP port 68 (clients)
+Telnet
+	TCP port 23
+SSH
+	TCP port 22
+POP3
+	TCP/UDP port 110 (unencrypted)
+	TCP/UDP port 995 (encrypted, SSL/TLS)
+IMAP  
+	TCP port 143 (unencrypted)
+	TCP port 993 (encrypted, SSL/TLS)
+	-> allow sync with server ( mails exist on server and user access it and allow multiple user at the same time)
+SMTP
+	TCP/UDP port 25  (unencrypted)
+	TCP/UDP port 587 (encrypted, TLS)
+
+don't try to always reinvent the wheel So it's always good to think about the unsolved challenges instead of trying to solve the same problem in a different way.
+
+IEEE 802.11 defines the overall standards for wireless networking, while WPA is a security protocol that can be implemented on top of IEEE 802.11 networks to ensure secure communication.
+Wi-Fi is a marketing term commissioned by the Wireless Ethernet Compatibility Alliance (WECA). WECA has since renamed their organization Wi-Fi Alliance. 
+802.11 is a family of internet communication standards determined by the Institute of Electrical and Electronics Engineers (IEEE).
+
+Wired equivalent privacy (WEP) is a wireless security protocol designed to provide users with the same level of privacy on wireless network connections as they have on wired network
+  connections. WEP was developed in 1999 and is the oldest of the wireless security standards.
+Wi-Fi Protected Access (WPA) was developed in 2003 to improve upon WEP, address the security issues that it presented, and replace it.
+  using a protocol called Temporal Key Integrity Protocol (TKIP) and  includes a message integrity check .
+  Malicious actors can use a key reinstallation attack (or KRACK attack)  insert themselves in the WPA authentication handshake process.
+WPA2 
+  Advanced Encryption Standard (AES), WPA2 uses the Counter Mode Cipher Block Chain Message Authentication Code Protocol (CCMP) replacing (TKIP). vulnerable to KRACK attacks.
+  personal mode is the best suited for home networks, not suit for orgainzations, needs to be applied to each individual , easy initialization .
+  enterprise mode works best for business applications, initial setup is more complicated than WPA2 personal mode, but enterprise mode offers individualized and centralized control.
+   Users never have access to encryption keys.
+WPA3
+  vulnerable to KRACK attacks, uses Simultaneous Authentication of Equals (SAE), using 128-bit encryption, with WPA3-Enterprise mode offering optional 192-bit encryption.
+
+Stateless refers to a class of firewall that operates based on predefined rules and does not keep track of information from data packets It also doesn't discover suspicious trends. 
+  It also doesn't store analyzed information (it filter each packet individually based on rules) like ACL, this and statefull block traffic based on IP address and ports.
+Stateful refers to a class of firewall that keeps track of information passing through (store connection information and filter on it be inspect backet deeply then explore
+  if it belong to communication or a mulicies ) it and proactively filters out threats.
+  A stateful firewall analyzes network traffic for characteristics and behavior that appear suspicious and stops them from entering the network.  
+  keeps track of information passing through it and proactively filters out threats .
+NGFW, provides even more security than a stateful firewall, performs more in-depth security functions like deep packet inspection and intrusion protection.
+  examines data packets and takes actions if threats exist, and intrusion prevention features, inspect traffic at App layer (application aware). 
+
+Classless Inter-Domain Routing (CIDR) is a method of assigning subnet masks to IP.
+
+ 
+proxies strictly act as a gateway between the internet and users.
+VPN traffic runs through an encrypted tunnel
+  and the user's device, making VPNs an effective solution for ensuring network security proxy work as a man in the middle.
+  user and the web. They hide the user's IP address from a web server the user visits, but it does not secure the data that is sent and received. A VPN takes this process a step further.
+  It hides the user's IP address and location so they cannot be identified vpn encapsulate your data in encrypted format then work as a proxy .
+  VPN -> encryption, encapsulation, proxy, totoally you are unknown. 
+  VPN and SD-WAN capabilities to secure their networks. A software-defined wide area network (SD-WAN) is a virtual WAN service that allows organizations to securely connect users to
+    applications across multiple locations.
+  Individual users use remote access VPN, Enterprises use site-to-site VPNs(more secure "dedicated tunnel" IPsec prorocol).
+
+tcpdump is a command-line network protocol analyze, lightweight(use less memory), text based meaning all commands in tcpdump are executed in the terminal, (linux & MacOS).
+  print output in the command line, and optionally to a log file.
+  By default, tcpdump will attempt to resolve host addresses to hostnames. It'll also replace port numbers with commonly associated services that use these ports.
+
+bot-harder who make botnet.
+
+Incident Report
+	first: Make a summary of incident and why it probably occure 
+		brief, what perahaps issue is, port.
+	second: Explain your analysis of the data and provide one solution to implement
+		time, how your security team ivistigate it, more detail. Note a likely cause of the incident,  
+IP Spoofing Attack
+	On-Path Attack (man in the middle) attacker spoof packets between 2 devices then get information (spoof IP information).
+	replay attack is a network attack performed when a malicious actor intercepts a data packet in transit and delays it or repeats it at another time.
+	Smurf Attack : is DDoS attack and an IP spoofing attack. The attacker sniffs an authorized user's IP address and floods it with packets.
+    avoid it by VPN and firewall right configuratoins that prvent any athurized user to enter to LAN except it is exactly in the LAN.
+
+NIC promiscuous mode ->means that NIC accepts all traffic on the network, even the packets that aren’t addressed to the NIC’s device.
+
+sandbox is a type of testing environment that allows you to execute software or programs separate from your network. They are commonly used for testing patches, identifying and addressing
+ bugs (like VM as isolation environment but more secure becuse it isn't on host but it is on remote network) stand-alone physical computers or cloud-based virtual machines.
+some malware authors know how to write code to detect if the malware is executed in a VM or sandbox environment.
+
+CAPTCHA and reCAPTCHA: CAPTCHA stands for Completely Automated Public Turing test to tell Computers and Humans Apart. It asks users to complete a simple test that proves they are human.
+  This helps prevent software from trying to brute force a password. reCAPTCHA is a free CAPTCHA service from Google that helps protect websites from bots and malicious software.
+
+SIEM dashboard interface is sometimes called a single pane of glass.
+
+defense in depth is the concept of using multi layer of security.
+
+firewall is the minimum level of security.
+
+Devices to hardining Security:
+IDS is configured to detect known attacks also for anomalies that could be the sign of malicious activity (detect and alert only the known mulicious or anomoly packets).
+  IDS is placed behind the firewall and before entering the LAN, which allows the IDS to analyze data streams after network traffic that is disallowed by the firewall has been filtered out.
+IPS the same as IDS but take an action(limitation of IPS is the possibility of false positives, which can result in legitimate traffic getting dropped.).
+Full packet capture devices can be incredibly useful for network administrators and security professionals. These devices allow you to record and analyze all of the data that is
+ transmitted over your network. They also aid in investigating alerts created by an IDS. 
+security information and event management system (SIEM) is an application that collects and analyzes log data to monitor critical activities in an organization(nalyze network log).
+
+basic principle of port filtering is to allow ports that are used by normal network operations.
+
+cloud security:
+Identity access management (IAM) is a collection of processes and technologies that helps organizations manage digital identities in their environment. This service also
+  authorizes how users can use different cloud resource.
+when organizations perform an initial migration into the cloud Each service must be carefully configured to meet security and compliance requirements.
+VM escape is an exploit where a malicious actor gains access to the primary hypervisor, potentially the host computer and other VMs
+
+Cryptographic erasure (crypto-shredding) is a method of erasing the encryption key for the encrypted data.
+
+keeping the encryption keys secure
+	Trusted platform module (TPM). TPM is a computer chip that can securely store passwords, certificates, and encryption keys.
+	Cloud hardware security module (CloudHSM). CloudHSM is a computing device that provides secure storage for cryptographic keys
+	   and processes cryptographic operations, such as encryption and decryption.
+
+
+
+
+
+.

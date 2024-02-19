@@ -1,0 +1,63 @@
+less command returns the content of a file one page at a time. For example, entering less updates.txt changes the terminal window to display the contents of updates.txt one page at a time. with the less command: you can use several keyboard controls to move through the file:
+Space bar: Move forward one page
+b: Move back one page
+Down arrow: Move forward one line
+Up arrow: Move back one line
+q: Quit and return to the previous terminal window
+
+grep {what you need to search for} { the place where you need to search }
+pipline | -> input is on the left 
+redirecting output to file : > overwrites your existing file, and >> adds your content to the end of the existing file instead of overwriting it
+
+The find command searches for directories and files that meet specified criteria (like recursive function: start from a s specific place then go through all subdirectories).
+first argument after find indicates where to start searching, the second argument is the criteria for the search.
+the serach criteria is optionally so you can determine what criteria that you need to search according to it :
+	-name,-iname: -name is case-sensitive, and -iname is not. to search for a specific word in file name ( can use the wildcards in search parameter ).
+	-mtime: last modified within a certain time frame number of days, -mmin can be used instead of -mtime if you want to base the search on minutes rather than days.
+	-perm: serach for file that have a specific permision 
+	.............
+ 
+ useradd:
+-g: Sets the user’s default group, also called their primary group.
+-G: Adds the user to additional groups, also called supplemental or secondary groups, can be more than one.
+
+usermod command modifies existing user accounts. The same -g and -G options from the useradd command can be used with usermod if a user already exists.
+You also need a -a option, which appends the user to an existing group and is only used with the -G option. ex: sudo usermod -a -G the_group the_existed_user.
+-d: Changes the user’s home directory.
+-l: Changes the user’s login name.
+-L: Locks the account so the user can’t log in.
+
+The userdel delete user but doesn’t delete the files in the user’s home directory unless you use the -r option.
+
+chown command changes ownership of a file or directory -> chown new_owner file_name.
+To change the group owner -> sudo chown :group_name file_name. You must enter a colon (:) before group_name to designate it as a group name.
+
+When you create a new user in Linux, a group with the same name as the user is automatically created and the user is the only member of that group.
+After removing users, it is good practice to clean up any such empty groups that may remain behind.
+
+Authorization is the concept of granting access to specific resources in a system. Authentication is the process of a user proving that they are who they say they are in the system.
+
+help commands:
+man displays information on other commands and how they work.
+whatis displays a description of a command on a single line.
+apropos searches the manual page descriptions for a specified string, -a option to write more than one words.
+--help after any command that help you to use known command for you.
+linux community for Q&A: UNIX and Linux Stack Exchange-> https://unix.stackexchange.com 
+
+openssl command reverses the encryption of the file with a secure symmetric cipher.
+compute hashes using sha256sum,
+display hashes using the cat command, and
+compare hashes using the cmp command.
+
+
+
+
+
+
+
+
+
+
+
+
+.

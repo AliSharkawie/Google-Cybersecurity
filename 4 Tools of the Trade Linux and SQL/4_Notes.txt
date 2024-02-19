@@ -1,0 +1,113 @@
+Windows operating system was introduced in 1985, and macOS was introduced in 1984.
+Windows is a closed-source operating system (source code is not shared with the public). macOS is partially open source. It has some open-source 	components, such as macOS’s kernel.
+Linux was released in 1991and it is a completely open-source operating system.
+ChromeOS launched in 2011. It’s partially open source and is derived from Chromium OS, which is completely open source. ChromeOS is frequently 	used in the education field.
+Android use in 2008, and iOS was introduced in 2007. Android is open source, and iOS is partially open source.
+legacy operating system is an operating system that is outdated but still being used.
+
+CVE numbers are identifiers for common vulnerabilities and exposures. The MITRE Corporation assigns the CVE numbers and maintains records for these events in the CVE system.
+	Common Vulnerabilities and Exposures (CVE):  uniquely identifies one vulnerability from the list.
+
+Booting the computer means that a special microchip called a BIOS((basic input/output system) is activated. On many computers built after 2007, 	the chip was replaced by the UEFI(Unified Extensible Firmware Interface). Both BIOS and UEFI contain booting instructions that are 	responsible for loading a special program called the bootloader after some other instructoins like checking hardware health. Then, the 	bootloader is responsible for starting the operating system. 
+
+OS mange resources allocation beside being as interfacfe between user and hardware, ensuring that each program is allocating and de-allocating 	resources, OS also needs to   make sure that it has enough energy to function correctly for certain tasks..
+
+Kernel-based Virtual Machine (KVM) is an open-source hypervisor that is supported by most major Linux distributions, It is built into the Linux kernel, which means it can be used to create virtual machines on any machine running a Linux operating system without the need for additional 	software.
+
+CLI allows users to enter commands that can perform multiple tasks simultaneously but GUI is a one task at time, and records a history file of 	all the commands and actions.
+
+Linux is unix based ( improvement of unix that is closed os )
+Linux is a multi-user system. This means that more than one user can use the system's resources at the same time.
+distributions = distros or flavors of Linux.
+
+Shell is the command-line interpreter,  allows users to give commands to the kernel and receive responses from it.
+Filesystem Hierarchy Standard (FHS) is the component of the Linux OS that organizes data. It specifies the location where data is stored in the 	operating system.
+
+Linux distribution difference: The pre-installed programs, user interfaces, and parent distributions might differ from one Linux distribution to 	another. Different Linux distributions use the same kernel.
+
+All distros are derived from another distro, but there are a few that are considered parent distributions. Red Hat® is the parent of CentOS, and 	Slackware® is the parent of SUSE®. Both Ubuntu and KALI LINUX™ are derived from Debian.
+
+KALI LINUX ™ is a Debian-derived distribution, it contains many pre-installed tools for (pentesting & digital foriensic), and it should be used 	on a virtual machine. It is an open-source distribution.
+For digital forensic work. 
+	tcpdump is a command-line packet analyzer. It's used to capture network traffic. 
+	Wireshark It has a graphical user interface that can be used to analyze live and captured network traffic.
+	Autopsy is a forensic tool used to analyze hard drives and smartphones. 
+	there is more 
+For Pentesting
+	Metasploit can be used to look for and exploit vulnerabilities on machines. 
+	Burp Suite is another tool that helps to test for weaknesses in web applications.
+	John the Ripper is a tool used to guess passwords.
+	there is more
+
+Kali: for penetration testing and digital forensics, CLI only, Debian Based
+Ubuntu:like kali but GUI + CLI 
+Parrot: debian based and similar to kali&ubunto but the eddition that it is more user friendly .
+CentOS is an open-source distribution that is closely related to Red Hat. It uses source code published by Red Hat to provide a similar platform. However, CentOS does not offer the same enterprise support that Red Hat provides and is supported through the community (centos 	like kali but for servers).
+Fedora project: is sponsored by RHEL. Red Hat uses Fedora as a testing ground to test its new features.
+SUSE: is the next stable and popular enterprise Linux for servers, and mainframes computers. SUSE is developed and maintained by SUSE Software 	Solutions (Germany).
+Arch Linux is a lightweight and flexible distribution. This distribution contains only essential and stable versions of the software. If you have an old system and need a lightweight Linux distribution, this is a perfect choice.
+
+package is a piece of software that can be combined with other packages to form an application. Some packages may be large enough to form 	applications on their own. Packages contain the files necessary for an application to be installed. These files include dependencies, 	which are supplemental files used to run an application. package in Linux is a compressed software archive file containing all the files 	included with a software application that provides any functionality. Packages can be a command-line utility, GUI application, or 	software library. 
+
+Package managers can help resolve any issues with dependencies and perform other management tasks. A package manager is a tool that helps users 	install, manage, and remove packages or applications. Linux uses multiple package managers( important to use the most recent version of 	a package that has the most up-to-date bug fixes and security patches).
+
+there is certain package managers for every distro. Red Hat Package Manager (RPM) can be used for Linux distributions derived from Red Hat, and 	package managers such as dpkg can be used for Linux distributions derived from Debian. 
+
+Different package managers typically use different file extensions. For example, Red Hat Package Manager (RPM) has files which use the .rpm file 	extension. but Debian (dpkg)have files which use the .deb file extension.
+
+package management tools allow users to easily work with packages through the shell:
+Advanced Package Tool (APT): is a tool used with Debian-derived distributions. It is run from the command-line interface to manage, search, and 	install packages.
+Yellowdog Updater Modified (YUM): is a tool used with Red Hat-derived distributions. It is run from the command-line interface to manage, 	search, and install packages. YUM works with .rpm files.
+
+Linux Shell Types: Bourne-Again Shell (bash): C Shell (csh), Korn Shell (ksh), Enhanced C shell (tcsh), Z Shell (zsh) 
+
+When the path leads to a subdirectory below the user’s home directory, the user’s home directory can be represented as the tilde (~). For example, /home/analyst/logs can also be represented as ~/logs. so / is the root for all system but ~ is a root for a specific user, each user have a subdirectory in home directory.
+absolute file path is the full file path, which starts from the root.
+relative file path is the file path that starts from a user's current directory.
+when the user, the group, and other can all write to a file. This type of file is considered a world-writable file.this can pose significant security risks.
+
+principle of least privilege is the concept of granting only the minimal access and authorization required to complete a task or function.
+
+the way to run root command is login as a root then run any command but this is a problem for security because if every one need to execute root command logined as a root we can't define whow make the command because all user logined as a root and run commands, also root user may be disabled login for security to prevent attacker for compromising root account.
+so to run root commands from ordinary user use (sudo)"super-user-do" that enable the user to run high privilege commands like root user but not loggin as a user actully in her account just run root commands, when use sudo you will enter username and password for the account that try to use sudo. (users in sudoers file only can use sudo)
+
+To access SQL from Linux, you need to type in a command for the version of SQL that you want to use. For example, if you want to access SQLite, you can enter the command sqlite3 in the command line.
+Although SQL has a more organized structure and allows you to join tables, ther is situations that would require you to filter data in Linux like file types that is in format not compatible with SQL.
+aggregation function it is excluding NULL value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

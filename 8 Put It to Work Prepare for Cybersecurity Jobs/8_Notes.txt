@@ -1,0 +1,353 @@
+constantly staying up-to-date with the kinds of attacks that are happening. To do this, it's good to develop a habit of seeking out information regarding
+ the latest security threats or vulnerabilities. always think how this threats may impact on your organization.
+
+think about everything how it perhaps exploited and think about any threat how can exploit you.
+
+
+Data Classifying for safety
+-Public data: not need extra security protections. Public data is already accessible to the public and poses a minimal risk to the organization if viewed or
+  shared by others. Although this data is open to the public, it still needs to be protected from security attacks. Ex:data include press releases, job descriptions, and marketing materials.
+-Private data : has a higher security level. Private data is information that should be kept from the public. If an individual gains unauthorized access to
+  private data, that event has the potential to pose a serious risk to an organization. Ex: company email addresses, employee identification numbers, and
+  an organization’s research data. 
+-Sensitive data: must be protected from everyone who does not have authorized access. Ex: Sensitive data includes personally identifiable information (PII),
+  sensitive personally identifiable information (SPII), and protected health information (PHI). Examples of these types of sensitive data are banking account
+  numbers, usernames and passwords, social security numbers (which U.S. citizens use to report their wages to the government), passwords, passport numbers, and medical information. 
+-Confidential data: important for an organization’s ongoing business operations.has limits on the number of people who have access to it. 
+  Access to confidential data sometimes involves the signing of non-disclosure agreements (NDAs).
+  Ex: proprietary information such as trade secrets, financial records, and sensitive government data.
+  
+
+Asset classification: labeling assets based on sensitivity and importance to an organization. The classification of assets ranges from low- to high-level. 
+ Public data is a low-level asset. Sensitive data and confidential data are high-level assets. 
+
+It's important to Understanding the importance of the data you're protecting is a big part of having a strong security mindset.
+
+When a security event results in a data breach, it is categorized as a security incident. However, if the event is resolved without resulting in a breach,
+ it's not considered an incident.
+
+If you're not sure of the potential impact of an incident, it's always best to be cautious and report events to the appropriate team members.
+
+
+
+Identify and protect 
+First, the security team identifies the assets that must be protected in the organization.
+Next, they determine what potential threats could negatively impact those assets. After the threats have been determined, 
+the security team implements tools and processes to detect potential threats to assets.
+Lastly, the IT or appropriate business function creates the business continuity and disaster recovery plans. These plans are created in conjunction with one
+ another. The plans help to minimize the impact of a security incident involving one of the organization’s assets.
+
+business continuity plan is a document that outlines the procedures to sustain business operations during and after a significant disruption. It is created
+ alongside a disaster recovery plan to minimize the damage of a successful security attack. 
+
+four essential steps for business continuity plans:
+-Conduct a business impact analysis. The business impact analysis step focuses on the possible effects a disruption of business functions can have on an organization. 
+-Identify, document, and implement steps to recover critical business functions and processes. This step helps the business continuity team create
+ actionable steps toward responding to a security event.
+-Organize a business continuity team. This step brings various members of the organization together to help execute the business continuity plan, if it is needed. The members of this team are typically from the cybersecurity,  IT, HR, communications, and operations departments. 
+-Conduct training for the business continuity team. The team considers different risk scenarios and prepares for security threats during these training exercises. 
+
+disaster recovery plan allows an organization’s security team to outline the steps needed to minimize the impact of a security incident, such as a successful
+ ransomware attack that has stopped the manufacturing team from retrieving certain data. It also helps the security team resolve the security threat.
+ A disaster recovery plan is typically created alongside a business continuity plan.
+ Steps:
+	Implementing recovery strategies to restore software
+	Implementing recovery strategies to restore hardware functionality
+	Identifying applications and data that might be impacted after a security incident has taken place 
+
+Identifying the important assets of a company is a key security analyst responsibility. Once you identify the assets, it can be helpful to follow the
+ information lifecycle strategy to help ensure those assets are being protected effectively. Reviewing a company’s security policies will also help an
+ analyst understand what is important to the company and how the analyst should be protecting that data.
+
+
+
+A security analyst should always escalate potential security events.
+
+You'll have to recognize not only what you're defending, but what or who you're defending against.
+
+While low-level security issues are not considered significant security threats, they should still be investigated to ensure they result in minimal impact to the organization.
+
+Incident escalation is essential for protecting an organization’s data. Every organization might have a different way of escalating security incidents. A security analyst should
+ be aware of the escalation protocols that are in place at their organization. Both small and large security issues should be escalated to the appropriate team or team member. 
+
+two essential skills that will help you identify security incidents that need to be escalated:
+-attention to detail: quickly identify when something doesn't seem right within the organization's network or systems.
+-ability to follow an organization's escalation guidelines or processes. help you know how to properly escalate the issue you've identified.
+
+
+team members who are a part of the incident escalation process:
+-data owner: is the person that decides who can access, edit, use, or destroy their information. have administrative control over specific information hardware or software
+ and are accountable for the classification, protection, access, and use of company data. For ex where an employee gains unauthorized access to software they do not need
+ to use for work. This kind of security event would be escalated to the data owner of that software.
+-Data controllers: determine the procedure and purpose for processing data. focuses on collecting the personal information of customers. The data controller determines
+ how that data is used. The data controller also ensures that data is used, stored, and processed in accordance with relevant security and privacy regulations.
+ If sensitive customer information was at risk, that event would be escalated to data controllers.
+-Data processors: report directly to the data controller and are responsible for processing the data on behalf of the data controller. The data processor is typically
+ a vendor and is often tasked with installing security measures to help protect the data. Data processing issues are typically escalated to the individual who oversees
+ the third-party organization responsible for data processing.
+-Data custodians: assign and remove access to software or hardware. Custodians are responsible for implementing security controls for the data they are responsible for,
+ granting and revoking access to that data, creating policies regarding how that data is stored and transmitted, advising on potential threats to that data, and monitoring
+ the data. Data custodians are notified when data security controls need to be strengthened or have been compromised.
+-Data protection officers: are responsible for monitoring the internal compliance of an organization’s data protection procedures. These individuals advise the security
+ team on the obligations required by the organization's data protection standards and procedures. They also conduct assessments to determine whether or not the security
+ measures in place are properly protecting the data as necessary. DPOs are notified when set standards or protocols have been violated.  
+
+some characteristics for you:
+A big part of your role as a security analyst will be making decisions about which security events to escalate before they become major security incidents.
+Confidence is an important attribute for a security analyst to have, especially when it comes to the escalation process. The security team will depend on you to be
+ confident in your decision-making. You should be intentional about learning the organization’s escalation policy. This will help you gain confidence in making the
+ right decisions when it comes to escalating security events.
+pay attention ( esclate in right time and give each noticed event it's right in investigation and esclating )
+
+
+
+All security events is important to be investigated but them are not equal in criticality:( some ex of highly critical incidents that sould be esclated)
+ Malware infections: Occur when malicious software designed to disrupt a system infiltrates an organization’s computers or network
+ Unauthorized access: Occurs when an individual gains digital or physical access to a system, data,  or application without permission 
+ Improper usage: Occurs when an employee of an organization violates the organization’s acceptable use policies
+->  incident which directly impacts assets that are essential to business operations should always take priority (high critically) over other incidents.
+
+Quick escalation tips :
+Familiarize yourself with the escalation policy of the organization you work for.
+Follow the policy at all times (also foucas on details on policy).
+Ask questions.
+
+Attention to detail is important for an entry-level security analyst. It helps the analyst monitor data logs and effectively follow an escalation policy. It’s also
+ critical for the analyst to recognize what assets are most important to an organization. This helps the analyst prioritize how quickly certain incidents should be escalated. 
+
+
+
+stakeholders are:
+A cybersecurity risk manager is a professional responsible for leading efforts to identify, assess, and mitigate security risks within an organization.
+A Chief Executive Officer (CEO), is the highest ranking person in an organization. You are unlikely to communicate directly with this stakeholder as an entry-level analyst.
+A Chief Financial Officer (CFO), is another high-level stakeholder that you’re unlikely to communicate with directly.
+A Chief Information Security Officer (CISO), is the highest level of security stakeholder. You are also unlikely to communicate directly with this stakeholder as an entry-level analyst. 
+An operations manager oversees the day-to-day security operations. These individuals lead teams related to the development and implementation of security strategies that protect an organization from cyber threats.
+
+CFOs and CISOs are focused on the big picture, like the potential financial burden of a security incident, operations managers are more focused on the impact on day-to-day operations.
+analyst might regularly communicate are operations managers and risk managers.
+
+Your communication with stakseholders:
+should be precise, avoid unnecessary technical terms, and have a clear purpose. 
+know what information to share with them. Effective communication involves relaying only the information that is most relevant to stakeholders.
+ask your manager or immediate supervisors questions to find out what the stakeholders you communicate with need to know.
+
+To get to the point in your communications, ask yourself: 
+What do I want this person to know? 
+Why is it important for them to know it? 
+When do they need to take action?
+How do I explain the situation in a nontechnical manner?
+
+-Follow the protocols: make sure you know what applications and forms of communications are acceptable before you begin communicating with stakeholders
+-make sure you address relevant information that relates to their daily responsibilitie
+
+ways you might choose to communicate:
+Instant messaging
+Emailing
+Video calling
+Phone calls
+Sharing a spreadsheet of data
+Sharing a slideshow presentation 
+visual dashboard is a way of displaying various types of data quickly in one place( charts, graphics ):
+  can be simple or complex depending on the information you're communicating
+phone call can also be valuable because it allows you to quickly communicate the necessary information without having to wait for a response to an email or message.
+
+report as you write a story : defien what is the challenge, how it impact, whats possible solutions according playbocks and your perception.
+
+Information that is communicated to stakeholders is sensitive. Sensitive information is not always classified.
+ Effective communication involves relaying only the information that is most relevant to stakeholders.
+
+Stakeholders are busy people who have very specific interests within the organization. Therefore, it’s important to only communicate information that is specific to their interests and impacts their role in the company.
+
+Ask stakeholders questions about the data and assets they are responsible for protecting to be able to determine what exactly you need to inform them about.
+
+Be mindful of the kind of information you’re communicating because that will help determine what method of communication you should use.
+
+
+
+Websites for security for reading to be up to data:
+cso, krebs and security, Dark Readings.
+
+
+
+Strategies for engaging with the cybersecurity community:
+-Attending security conferences and joining organizations gives you the opportunity to gain knowledge 
+-Find the right organization ( define your intterests ( red team, white team or digital forensics and join to organization that help you to improve and practice your interests)
+-begin search for organizations or conferences.
+-Use social media (  Be aware of social engineering ) 
+-Mailing lists for security :stay connected with the security industry is to sign up for different cybersecurity mailing lists. These mailing lists send out information periodically
+ on various security topics. (CISA) offers two cybersecurity mailing lists for you to join:
+	A list focused on security threat information, best practices for cybersecurity, and analysis from CISA’s domestic and international security partners
+	A list providing weekly summaries of new vulnerabilities that might pose a risk to an organization’s network
+  -> it's a website that you can subscribe for security events according it.
+
+Meeting people locally is a great way to see what's out there in your area, and meet other folks that are local that you can talk to more consistently, that are also
+ interested insecurity. it was okay that you don't know everything. You don't have to know everything. You have teammates
+
+engaging with the security community through various security organizations and conferences is a great way to stay up-to-date on current security news. By staying informed
+ about security trends, you can more effectively identify and develop remediation strategies to address a wide range of security challenges
+
+connect wiith profissoinals and peers
+When connecting with others, it’s important to send a well-written message. This message can help the person understand your intentions. It also helps people determine that you’re not a scammer looking to exploit them.
+
+some Roles:
+Security analyst: is typically an entry-level role that might interest you as you prepare to enter the security field. The role generally focuses on monitoring networks for security
+ breaches, developing strategies to help secure an organization, and even researching IT security trends.(log monitoring and SIEM tools)
+information security analyst: This role generally focuses on creating plans and implementing security measures to protect organizations' networks and systems. Earlier in the program,
+ you learned about controls and frameworks that can be used to develop security plans and procedures, as well as how to use SIEMs and packet sniffers to identify risks. 
+security operations center analyst( SOC analyst), is another role you might find exciting. This role generally focuses on ensuring security incidents are handled rapidly and efficiently by following established policies and procedures.
+
+* well-known job sites in the United States and internationally are ZipRecruiter, Indeed, and Monster Jobs.
+
+
+
+Resume (curriculum vitae) Cv:
+-Make sure there are no spelling or grammatical errors in your resume before sending it to your potential employer. Also note that resumes are typically about two pages long,
+  and list only your last 10 years or less of work experience.
+-Aim to communicate how your skills and past accomplishments relate to the role you are applying for.
+
+
+
+resume tells me the facts, what have you done, but a cover letter tells me who you are.
+ -Why cybersecurity? Why this space, why this opportunity? What draws you here? 
+ -when it comes to cover letters, it's your opportunity to tell the employer kind of what's written in between those lines of that resume that's brought you here.
+
+cover letter structure: 
+First give me a few lines about yourself, your family, your hobbies. And then after that, really kind of cut to what makes you unique, what makes you different than this other applicant?
+ What has brought you to this opportunity? How have you overcome adversity? How do you plan to do so in this work environment? What does this job mean to you?
+ What are the soft skills that you can present and bring to your colleagues in this role?
+
+if there is a work transition -> why? Is there a particular reason new role excites you? Is there a particular reason you're making this transition?
+ What haven't you found in your previous career? employer want you here forever, and if I keep he here forever, he want to keep you happy, right? So what makes you happy?
+ What are the things that you see in this space that are going to excite you, that you're passionate about?
+
+Tailor your cover letter around that mission. What's their mission? Make it a part of your own. Know the company's mission, know their purpose, their products.
+ Insert that in your cover letter. A cover letter is meant to capture someone's attention quickly. You can't manage to capture the attention of someone for the entirety of what
+ you've written, right? So, what is it about you that interests them, that brings you to this time and this opportunity? be bold be loud.
+
+
+
+
+Interview
+In Preliminary interview or phone screening
+ Asking questions helps demonstrate your interest and will help you determine whether the job will be a good fit for you.
+ After the interview, send a thank-you email to the recruiter within 24 hours. Express your gratitude for their time and briefly restate why you would be a good fit for the position.
+In Addition Interview
+ longer than the preliminary interview. may be more one phase. send a thank-you note to the people you interviewed with after each round of interviews. 
+ interviewer will ask you questions about your background, skills, and experience.
+Receiving a job offer.
+ company extends their initial offer, you’ll need to decide whether or not to accept it or negotiate for a higher salary or other benefits. Feel free to ask for a day or two to make your decision.
+Building perseverance
+If you didn’t get the job, take a moment to process your emotions. If you’d like, you can let the company know that you appreciate the opportunity to be considered and that you’d
+ be interested in any future roles that might be a good fit. You can also ask for feedback on what you could do better next time.  
+
+
+
+Technical Interview:
+-don't expect that the interview will be a sort of trivial exam of how many questions can you answer in this sort of period of time. Interviewer want to know, as an interviewer,
+  does the candidate understand the fundamentals and can they explain them back to him?
+-Practice answering open end questions.
+-Thinking out loud
+-Get information from your interviewer to help you narrow down the focus of the question itself
+-If you don't know the answer, that's fine. Again, no one expects you to walk on water, but we don't expect you to lie
+-ideal candidate is someone who just loves to learn
+-trust yourself, trust your gut, don't be afraid to fail
+-it may be a good idea to write the entire question down on paper before answering. Often, technical interview questions have multiple parts to cover. People sometimes rush to give an
+ answer and show their knowledge but not fully cover everything that the question asks. Writing down the question can help you ensure you have the question right and are able to provide a structured response. 
+
+Prepare for interviews
+-Prepare for the introductory call, you’ll talk with the recruiter or hiring manager about yourself, the kind of work or training you have, and why you want the job. You might also be asked specifically about your
+ salary requirements, it’s a good idea to prepare in advance and conduct an internet search for “average salary" for your position.
+-research on the company.
+
+-panel interview, you’ll meet with two or more people and discuss yourself and your ability to contribute to the organization. If you’re nervous about this, remind yourself that the team
+ brought you in for the interview for a reason. When you feel confident in your abilities, you’re better able to showcase your knowledge about questions.
+-engage with each panelist by giving them your full attention during the interview. Maintaining eye contact can help you express confidence.
+ It’s okay to address the whole panel when answering a question, rather than only directing your response to the person who asked the question.
+
+
+Before the interview, 
+-it's important to do some research about the organization you're interviewing with. Interviewers want to know that you're a good match for their team and that you value the things that are important to the company.
+-know the organization's mission and vision. Understand their core values and company culture. This information is usually easy to find either in the job description or on the "About" page of the organization's website.
+-You want the employer to remember you after they've interviewed several candidates. So highlight things that make you the best candidate for the role.
+-Take some time to think about what the interviewer is seeking in a candidate. Then prepare yourself to state directly how you can meet the employer's needs.
+-it's good idea to write down questions that you can ask the interviewer about the organization's past accomplishments and future goals.
+-be prepared to address any possible concerns by speaking about your strong work ethic. This could include an ability to learn quickly based on feedback, or to collaborate and communicate
+ with others. Also, you could discuss having a good mindset, or problem solving skills that you've developed from personal life, work, or educational experiences.
+
+build rapport with your potential employer.
+use a friendly, conversational tone of voice (smile while you talk in call).
+it's important to have some questions prepared to ask interviewer.
+It's nice to send a follow-up email a day or two after your in-person interview (brief thanks email for interviewr).
+
+
+
+Answering Interview questions
+-Carefully consider each question before responding.
+-STAR Method :Situation (the problem )-> Task (what should I do to cover problem) -> Action ( what exactly I will do to solve the sitaution) -> Result ( I mange the problem )
+ situation: is the project you worked on or a challenge that you had to overcome.
+ task: outlines the key responsibilities or role you played in solving the challenge described in the situation phase. Specifying what the task is provides clarity about what your objectives were in this scenario.
+ action: describes the exact steps you took to resolve the challenging situation
+ result of your challenge or example shows the employers how the situation was resolved. as a direct result of the actions you took.
+-answer questions with confidence. One way to demonstrate confidence is by admitting when you don't know something. For example, if an interviewer asks you to discuss a skill that you
+ don't have, it's okay to admit you haven't learned it yet. However, the trick is to confidently mention that while you don't have that particular skill, you're a quick learner and eager
+ to develop that skill.
+ -> confidence:Taking the time to fully understand a problem or question to provide the best solution or answer possible. don't be afraid to ask the interviewer for a moment to think 
+	about your answer. It shows that you're willing to take the time needed to understand the question and provide a response that is meaningful and relevant.
+
+
+If you don't know something, don't be afraid to say, "I don't know" and say.
+For the non-technical pieces, practice with a friend, have an interview partner
+don't be afraid of rejection, because it takes time to find your first role.
+
+elevator pitch is a brief summary of your experience, skills, and background that should be communicated in 60 seconds or fewer. “tell me about yourself.”
+ Start by providing an introduction. Introduce yourself and give a brief overview of your professional background. 
+ Describe your career interests and transferable skills
+ Express your excitement, share your passion for the field and why you want to work in the industry
+ Communicate your interest in the company
+ *You can even use your elevator pitch in other types of situations, like meeting new friends or colleagues.
+ -> brief, short, avoid rambling.
+ Presenting your elevator pitch in a conversational tone 
+
+Tips for interviewing remotely:
+test the technology you’ll be using for the video
+Practice communicating through video
+Create a professional background
+Dress appropriately
+Dress appropriately
+Sign in early
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B-Sides is a non-profit 501(c)(3) organization dedicated to advancing information security knowledge-sharing through events, conferences, and seminars around the world
+
+CDM Agency Dashboard displays data about devices, users, privileges, and vulnerabilities. This dashboard collects and arranges detailed information on vulnerabilities
+ gathered and provides an object-level view of an agency's cybersecurity posture
+
+Programs like Google Sheets and Apache OpenOffice are tools that can be used to create visual dashboards.
+
+google interview tips (https://www.google.com/about/careers/applications/interview-tips/?src=Online%2FSocial%2FNewYearNewJob&utm_campaign=&utm_medium=Social&utm_source=Online)
+Interviewing techniques for persons with disabilities from Job Accommodation Network (JAN) (https://askjan.org/publications/consultants-corner/vol01iss13.cfm)
+.
+
+Interview Warmup is a tool that helps you practice answering questions to become more confident and comfortable throughout the interview process.
+( https://grow.google/certificates/interview-warmup/ )
+Prepere for interview: https://googlecerts.biginterview.com/
+
+
+CV websites:
+https://app.enhancv.com/industry-examples  
+https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/start-a-resume/overview.html (Start  Resume "course how to write it"
+

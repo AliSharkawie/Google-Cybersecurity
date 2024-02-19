@@ -1,0 +1,128 @@
+CV Guidline
+
+Step 1: Select a resume template
+The formatting elements provided in a template—such as the layout and headings—are a helpful starting point when creating a new resume.
+To select a template for your resume, open the 
+template gallery in Google Docs or another word processing application. Go to the resumes section and examine the templates. Choose one template for your resume.
+
+
+
+Step 2: search for cybersecurity roles
+Think about what you’ve learned about cybersecurity roles in this program so far, and decide which type of role you would like to pursue. Consider the tasks and responsibilities that interest you, your current skill set, and your previous experience. Then, research roles on platforms like 
+Indeed, LinkedIn™ Job Search, and/or CareerBuilder, and identify a position that appeals to you.
+
+
+
+Step 3: take notes about your search
+to take notes on your findings. Then, record the job title of the role you selected from your search, as well as some of the qualifications and skills required for that position.
+ Read several additional job descriptions for similar roles to identify qualifications and skills that show up frequently, and note those as well.
+
+
+
+Step 4: Add contact information
+In the resume, add your contact information at the top of the document. Include the following information:
+Your name
+Location (such as city and state)
+Phone number
+Email address
+(Optional) the URL to your LinkedIn profile
+Next, add a job title near your contact information that conveys both your current experience and the role you are seeking. For example, you might add “Incident Response Analyst” or “Data Forensics Analyst.” You can also add something more broad, such as “Cybersecurity Analyst.”
+-Pro tip: Your email address should be easy to read, relatively short. It should also avoid too many words or symbols that are unrelated to your name. You may need to create a new email address if your current one doesn't fit these requirements.
+
+
+Step 5: Add your related skills 
+Review the notes you took in Step 3 to help you fill in the Skills section of your resume. Include skills  that align closely with the requirements for the position you identified. These might include skills you've learned in this program or ones you've gained in previous positions.
+To organize this section, format your skills as a bulleted list in two or more columns. You can also split different types of skills into different sections, based on the requirements of the role.
+Pro tip: Match the language that was used by the potential employer when possible since some employers use automation software to filter resumes. For example, if the job description uses words like “problem-solving” and “critical thinking,” use those words in your resume, too.
+
+
+
+Step 6: Add your Experience
+The Experience section of your resume provides a summary of the positions you have held in your career. List at least three positions in reverse chronological order.
+ This can include volunteer roles and other relevant experience. Each listing should include:
+Company name
+Location
+Job title
+Dates you worked there. (If you are still working there, write your start date, a hyphen, and then “Present.”)
+A short description or bulleted list of your responsibilities 
+
+Focus on showcasing only your best and most relevant responsibilities or accomplishments. Your resume doesn’t need to include every detail from every job you've held.
+ Once you get an interview, you can go into more details about yourself.
+
+Follow these best practices when adding to your Experience descriptions:
+ Use active verbs like developed, coordinated, created, planned, built, tracked, managed, and monitored to describe the tasks you performed. 
+ When possible, quantify the tasks you performed by including numbers. (For example, “Collaborate with over 10 departments to ensure synchronization across the organization.”)
+ Write in the present tense for work you still do, and use the past tense for a job or project that you completed. 
+ Aim to communicate how your skills and past accomplishments relate to the role you are applying for.
+
+
+
+Step 7: Add your education
+The Education section of your resume describes any formal schooling and training you’ve had. Listing your education helps demonstrate the qualifications and knowledge you bring to
+ a potential employer and shows that you meet the requirements for the opportunity you are seeking. 
+Fill in the name of any school you attended after high school; its location; the degree, diploma, or certificate you earned; and the dates that you attended.
+ Begin with your most recent school first. Also, include any internships, apprenticeships, professional certifications, or credentials you hold. For example, you might include:
+
+Google Career Certificate in Cybersecurity - Online certificate
+MAY 20XX - OCTOBER 20XX
+
+Note: If you’re currently enrolled in school and have not yet earned a degree or certification, write “In Progress” instead of the end date.
+
+
+
+Step 8: Add what makes you unique
+Complete your resume with a section that further makes you stand out to potential employers. There are many approaches to communicating what makes you unique from other applicants.
+For example, you can ADD Awards section and list any awards you have received. Similar to the formatting used in Step 7, include who awarded them to you, and the date you received them.
+ Alternatively, you can replace this section with a section like “Languages,” “Software,” “Volunteer Work,” “Projects,” “Hobbies and Interests,” or “Accomplishments.”
+
+Pro tip: Tailor the section whenever possible to match unique characteristics of the role. For example, if the employer is seeking someone who is multilingual and you speak several
+ languages, add a “Languages" section to highlight your skills.
+
+
+
+Step 9: Proofread your resume
+It's critical to carefully proofread your resume for spelling, grammatical, and punctuation errors. Correcting any mistakes demonstrates your attention to detail.
+Make sure your resume is as concise as possible. Ideally, the length of your resume should be no more than one or two pages, particularly early on in your career. If there are places where you can use fewer words to say the same thing, choose a more precise word or concise phrasing.
+
+Pro tip: Closely read every section yourself or ask a friend to review your resume and provide feedback. Spelling and grammar checking tools are helpful, but they can miss mistakes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cover Letters:
+
+resume tells me the facts, what have you done, but a cover letter tells me who you are.
+ -Why cybersecurity? Why this space, why this opportunity? What draws you here? 
+ -when it comes to cover letters, it's your opportunity to tell the employer kind of what's written in between those lines of that resume that's brought you here.
+
+cover letter structure: 
+First give me a few lines about yourself, your family, your hobbies. And then after that, really kind of cut to what makes you unique, what makes you different than this other applicant?
+ What has brought you to this opportunity? How have you overcome adversity? How do you plan to do so in this work environment? What does this job mean to you?
+ What are the soft skills that you can present and bring to your colleagues in this role?
+
+if there is a work transition -> why? Is there a particular reason new role excites you? Is there a particular reason you're making this transition?
+ What haven't you found in your previous career? employer want you here forever, and if I keep he here forever, he want to keep you happy, right? So what makes you happy?
+ What are the things that you see in this space that are going to excite you, that you're passionate about?
+
+Tailor your cover letter around that mission. What's their mission? Make it a part of your own. Know the company's mission, know their purpose, their products.
+ Insert that in your cover letter. A cover letter is meant to capture someone's attention quickly. You can't manage to capture the attention of someone for the entirety of what
+ you've written, right? So, what is it about you that interests them, that brings you to this time and this opportunity? be bold be loud.
+
+
+

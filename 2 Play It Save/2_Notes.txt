@@ -1,0 +1,55 @@
+(IAM) identity and access management: Identification is when a user verifies who they are by providing a user name, an access card, or biometric data such as a fingerprint.
+Authentication is the verification process to prove a person's identity, such as entering a password or PIN.
+Authorization takes place after a user's identity has been confirmed and relates to their level of access, which depends on the role in the organization.
+Accountability refers to monitoring and recording user actions, like login attempts, to prove systems and data are used properly.
+
+security posture include:
+Security goals and objectives
+Risk mitigation processes
+Compliance
+Business continuity plans
+Legal regulations
+Professional and organizational ethics
+
+NIST CSF focuses on five core functions: identify, protect, detect, respond, and recover.
+-identify, which is related to the management of cybersecurity risk and its effect on an organization's people and assets. For example, as a security analyst,
+you may be asked to monitor systems and devices in your organization's internal network to identify potential security issues
+-protect, which is the strategy used to protect an organization through the implementation of policies, 
+procedures, training, and tools that help mitigate cybersecurity threats.
+-detect, which means identifying potential security incidents and improving monitoring capabilities to increase the speed and efficiency of detections. For example, 
+as an analyst, you might be asked to review a new security tool's setup to make sure it's flagging low, medium, or high risk
+-respond, which means making sure that the proper procedures are used to contain, neutralize, 
+and analyze security incidents, and implement improvements to the security process.
+-recover, which is the process of returning affected systems back to normal operation.
+
+Security principles 
+Minimize attack surface area: Attack surface refers to all the potential vulnerabilities a threat actor could exploit.
+Principle of least privilege: Users have the least amount of access required to perform their everyday tasks.
+Defense in depth: Organizations should have varying security controls that mitigate risks and threats.
+Separation of duties: Critical actions should rely on multiple people, each of whom follow the principle of least privilege. 
+Keep security simple: Avoid unnecessarily complicated solutions. Complexity makes security difficult. 
+Fix security issues correctly: When security incidents occur, identify the root cause, contain the impact, identify vulnerabilities, and conduct tests to ensure that remediation is successful.
+Establish secure defaults
+This principle means that the optimal security state of an application is also its default state for users; it should take extra work to make the application insecure. 
+Fail securely -》 means that when a control fails or stops, it should do so by defaulting to its most secure option. 
+ For example, when a firewall fails it should simply close all connections and block all new ones, rather than start accepting everything.
+Don’t trust services -》 Many organizations work with third-party partners. 
+ These outside partners often have different security policies than the organization does. And the organization shouldn’t explicitly trust that their partners’ systems are secure. For example, if a third-party vendor tracks reward points for airline customers, the airline should ensure that the balance is accurate before sharing that information with their customers.
+Avoid security by obscurity -》 The security of key systems should not rely on keeping details hidden.
+
+internal security audits include establishing the scope and goals, then conducting a risk assessment. 
+The remaining elements are completing a controls assessment, assessing compliance, and communicating results
+   Before completing these last three elements, you'll need to review the scope and goals, as well as the risk assessment, and ask yourself some questions. For example: What is the audit meant to achieve? Which assets are most at risk? Are current controls sufficient to protect those assets? If not, what controls and compliance regulations need to be implemented? 
+   Considering questions like these can support your ability to complete the next element: a controls assessment.
+
+Suricata is an open-source network analysis and threat detection software.
+ Network analysis and threat detection software is used to inspect network traffic to identify suspicious behavior and generate network data logs.
+
+SOAR (Security Orchestration, Automation, and Response) refers to a collection of software solutions and tools that allow organizations to streamline
+ security operations in three key areas: threat and vulnerability management, incident response, and security operations automation.
+Playbooks are also used with SOAR tools. SOAR tools are similar to SIEM tools in that they are used for threat monitoring. SOAR is a piece of software used to automate repetitive tasks
+ generated by tools such as a SIEM or managed detection and response (MDR). For example, if a user attempts to log into their computer too many times with the wrong password, a SOAR would
+ automatically block their account to stop a possible intrusion. Then, analysts would refer to a playbook to take steps to resolve the issue.
+
+
+.
